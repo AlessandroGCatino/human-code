@@ -20,11 +20,12 @@
             - SE? la penna è stilografica AND rientra nel budget
                 - metto nel carrello la penna
             - ALTRIMENTI cerco un libro
-                - SCORRO nella lista dei prodotti
-                - Seleziono un libro
-                    - SE? la spedizione è Prime AND rientra nel budget
-                        - metto nel carrello il libro
-                    - ALTRIMENTI cerco un altro libro
+                - FINTANTO CHE non trovo un libro
+                    - SCORRO nella lista dei prodotti
+                    - Seleziono un libro
+                        - SE? la spedizione è Prime AND rientra nel budget
+                            - metto nel carrello il libro
+                        - ALTRIMENTI cerco un altro libro
 - Vado nella sezione "il mio Carrello"
 - Confermo l'ordine
 - Inserisco i dati per il pagamento
